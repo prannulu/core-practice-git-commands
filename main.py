@@ -2,7 +2,9 @@ import pytest
 
 
 def always_returns_true():
-    return "Pavi"
+    it_works = True
+    if it_works:
+        return "It works!"
 
 
 def test_always_returns_true():
